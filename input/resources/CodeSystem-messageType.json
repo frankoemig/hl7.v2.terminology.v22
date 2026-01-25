@@ -1,0 +1,851 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "messageType",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-messageType.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/messageType</code></a></li></ul></div>"
+  },
+  "extension": [ {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+    "valueString": "2.2"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+    "valueString": "generate correct history somehow"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+    "valueString": "0076"
+  } ],
+  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/messageType",
+  "identifier": [ {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:oid:2.16.840.1.113883.18.30"
+  } ],
+  "version": "1.1.0",
+  "name": "MessageType",
+  "title": "Message Type (2.2 - 1.1.0)",
+  "status": "active",
+  "experimental": true,
+  "publisher": "HL7 Inc., 2026",
+  "description": "HL7-defined code system of concepts which specify message types.  Used in HL7 Version 2.x messaging in the MSH segment.",
+  "copyright": "HL7 Inc., 2026",
+  "caseSensitive": true,
+  "compositional": false,
+  "content": "complete",
+  "property": [ {
+    "code": "versionIntroduced",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+    "description": "version when was this code introduced",
+    "type": "string"
+  }, {
+    "code": "versionDeprecated",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+    "description": "version when was this code deprecated",
+    "type": "string"
+  }, {
+    "code": "status",
+    "uri": "http://hl7.org/fhir/concept-properties#status",
+    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+    "type": "code"
+  }, {
+    "code": "comment",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+    "type": "string"
+  }, {
+    "code": "usage",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+    "description": "usage notes for this code",
+    "type": "string"
+  }, {
+    "code": "modified",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+    "description": "date of last modification",
+    "type": "dateTime"
+  }, {
+    "code": "chapter",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#chapter",
+    "description": "chapter",
+    "type": "string"
+  }, {
+    "extension": [ {
+      "url": "http://hl7.org/fhir/StructureDefinition/codesystem-property-valueset",
+      "valueCanonical": "http://terminology.hl7.org/v2plusvocab/ValueSet/hl7VShl7VSevent"
+    } ],
+    "code": "event",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#event",
+    "description": "event",
+    "type": "code"
+  } ],
+  "concept": [ {
+    "code": "ACK",
+    "display": "General acknowledgement message",
+    "definition": "General acknowledgement message",
+    "designation": [ {
+      "language": "de",
+      "value": "Empfangsbestätigung"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    }, {
+      "code": "event",
+      "valueCode": "A01"
+    }, {
+      "code": "event",
+      "valueCode": "A02"
+    }, {
+      "code": "event",
+      "valueCode": "A03"
+    }, {
+      "code": "event",
+      "valueCode": "A04"
+    }, {
+      "code": "event",
+      "valueCode": "A05"
+    }, {
+      "code": "event",
+      "valueCode": "A06"
+    }, {
+      "code": "event",
+      "valueCode": "A07"
+    }, {
+      "code": "event",
+      "valueCode": "A08"
+    }, {
+      "code": "event",
+      "valueCode": "A09"
+    }, {
+      "code": "event",
+      "valueCode": "A10"
+    }, {
+      "code": "event",
+      "valueCode": "A11"
+    }, {
+      "code": "event",
+      "valueCode": "A12"
+    }, {
+      "code": "event",
+      "valueCode": "A13"
+    }, {
+      "code": "event",
+      "valueCode": "A14"
+    }, {
+      "code": "event",
+      "valueCode": "A15"
+    }, {
+      "code": "event",
+      "valueCode": "A16"
+    }, {
+      "code": "event",
+      "valueCode": "A17"
+    }, {
+      "code": "event",
+      "valueCode": "A18"
+    }, {
+      "code": "event",
+      "valueCode": "A20"
+    }, {
+      "code": "event",
+      "valueCode": "A21"
+    }, {
+      "code": "event",
+      "valueCode": "A22"
+    }, {
+      "code": "event",
+      "valueCode": "A23"
+    }, {
+      "code": "event",
+      "valueCode": "A24"
+    }, {
+      "code": "event",
+      "valueCode": "A25"
+    }, {
+      "code": "event",
+      "valueCode": "A26"
+    }, {
+      "code": "event",
+      "valueCode": "A27"
+    }, {
+      "code": "event",
+      "valueCode": "A28"
+    }, {
+      "code": "event",
+      "valueCode": "A29"
+    }, {
+      "code": "event",
+      "valueCode": "A30"
+    }, {
+      "code": "event",
+      "valueCode": "A31"
+    }, {
+      "code": "event",
+      "valueCode": "A32"
+    }, {
+      "code": "event",
+      "valueCode": "A33"
+    }, {
+      "code": "event",
+      "valueCode": "A34"
+    }, {
+      "code": "event",
+      "valueCode": "A35"
+    }, {
+      "code": "event",
+      "valueCode": "A36"
+    }, {
+      "code": "event",
+      "valueCode": "A37"
+    }, {
+      "code": "event",
+      "valueCode": "M01"
+    }, {
+      "code": "event",
+      "valueCode": "M02"
+    }, {
+      "code": "event",
+      "valueCode": "M03"
+    }, {
+      "code": "event",
+      "valueCode": "N01"
+    }, {
+      "code": "event",
+      "valueCode": "O01"
+    }, {
+      "code": "event",
+      "valueCode": "O02"
+    }, {
+      "code": "event",
+      "valueCode": "P01"
+    }, {
+      "code": "event",
+      "valueCode": "P02"
+    }, {
+      "code": "event",
+      "valueCode": "P03"
+    }, {
+      "code": "event",
+      "valueCode": "Q02"
+    }, {
+      "code": "event",
+      "valueCode": "Q03"
+    }, {
+      "code": "event",
+      "valueCode": "Q05"
+    }, {
+      "code": "event",
+      "valueCode": "R01"
+    }, {
+      "code": "event",
+      "valueCode": "R02"
+    }, {
+      "code": "event",
+      "valueCode": "R03"
+    }, {
+      "code": "event",
+      "valueCode": "R04"
+    } ]
+  }, {
+    "code": "ADR",
+    "display": "ADT response",
+    "definition": "ADT response",
+    "designation": [ {
+      "language": "de",
+      "value": "Antwort auf Anfrage bezüglich Aufnahme / Verlegung / Entlassung von Patienten"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    }, {
+      "code": "event",
+      "valueCode": "A19"
+    } ]
+  }, {
+    "code": "ADT",
+    "display": "ADT message",
+    "definition": "ADT message",
+    "designation": [ {
+      "language": "de",
+      "value": "Aufnahme / Entlassung / Verlegung"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    }, {
+      "code": "event",
+      "valueCode": "A01"
+    }, {
+      "code": "event",
+      "valueCode": "A02"
+    }, {
+      "code": "event",
+      "valueCode": "A03"
+    }, {
+      "code": "event",
+      "valueCode": "A04"
+    }, {
+      "code": "event",
+      "valueCode": "A05"
+    }, {
+      "code": "event",
+      "valueCode": "A06"
+    }, {
+      "code": "event",
+      "valueCode": "A07"
+    }, {
+      "code": "event",
+      "valueCode": "A08"
+    }, {
+      "code": "event",
+      "valueCode": "A09"
+    }, {
+      "code": "event",
+      "valueCode": "A10"
+    }, {
+      "code": "event",
+      "valueCode": "A11"
+    }, {
+      "code": "event",
+      "valueCode": "A12"
+    }, {
+      "code": "event",
+      "valueCode": "A13"
+    }, {
+      "code": "event",
+      "valueCode": "A14"
+    }, {
+      "code": "event",
+      "valueCode": "A15"
+    }, {
+      "code": "event",
+      "valueCode": "A16"
+    }, {
+      "code": "event",
+      "valueCode": "A17"
+    }, {
+      "code": "event",
+      "valueCode": "A18"
+    }, {
+      "code": "event",
+      "valueCode": "A20"
+    }, {
+      "code": "event",
+      "valueCode": "A21"
+    }, {
+      "code": "event",
+      "valueCode": "A22"
+    }, {
+      "code": "event",
+      "valueCode": "A23"
+    }, {
+      "code": "event",
+      "valueCode": "A24"
+    }, {
+      "code": "event",
+      "valueCode": "A25"
+    }, {
+      "code": "event",
+      "valueCode": "A26"
+    }, {
+      "code": "event",
+      "valueCode": "A27"
+    }, {
+      "code": "event",
+      "valueCode": "A28"
+    }, {
+      "code": "event",
+      "valueCode": "A29"
+    }, {
+      "code": "event",
+      "valueCode": "A30"
+    }, {
+      "code": "event",
+      "valueCode": "A31"
+    }, {
+      "code": "event",
+      "valueCode": "A32"
+    }, {
+      "code": "event",
+      "valueCode": "A33"
+    }, {
+      "code": "event",
+      "valueCode": "A34"
+    }, {
+      "code": "event",
+      "valueCode": "A35"
+    }, {
+      "code": "event",
+      "valueCode": "A36"
+    }, {
+      "code": "event",
+      "valueCode": "A37"
+    } ]
+  }, {
+    "code": "BAR",
+    "display": "Add / change billing account",
+    "definition": "Add / change billing account",
+    "designation": [ {
+      "language": "de",
+      "value": "Hinzufügen / Ändern von Abrechnungsdaten"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    }, {
+      "code": "event",
+      "valueCode": "P01"
+    }, {
+      "code": "event",
+      "valueCode": "P02"
+    } ]
+  }, {
+    "code": "DFT",
+    "display": "Detail financial transaction",
+    "definition": "Detail financial transaction",
+    "designation": [ {
+      "language": "de",
+      "value": "Einzelbuchung"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    }, {
+      "code": "event",
+      "valueCode": "P03"
+    } ]
+  }, {
+    "code": "DSR",
+    "display": "Display response",
+    "definition": "Display response",
+    "designation": [ {
+      "language": "de",
+      "value": "Antwort im Anzeigeformat"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    }, {
+      "code": "event",
+      "valueCode": "P04"
+    }, {
+      "code": "event",
+      "valueCode": "Q01"
+    }, {
+      "code": "event",
+      "valueCode": "Q03"
+    }, {
+      "code": "event",
+      "valueCode": "R03"
+    } ]
+  }, {
+    "code": "MCF",
+    "display": "Delayed acknowledgement",
+    "definition": "Delayed acknowledgement",
+    "designation": [ {
+      "language": "de",
+      "value": "Verzögerte Empfangsbestätigung (veraltet; ACK benutzen)"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "MFD",
+    "display": "Master files delayed application acknowledgement",
+    "definition": "Master files delayed application acknowledgement",
+    "designation": [ {
+      "language": "de",
+      "value": "Verzögerte Empfangsbestätigung für Stammdateiänderung"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    }, {
+      "code": "event",
+      "valueCode": "M01"
+    }, {
+      "code": "event",
+      "valueCode": "M02"
+    }, {
+      "code": "event",
+      "valueCode": "M03"
+    } ]
+  }, {
+    "code": "MFK",
+    "display": "Master file application acknowledgement",
+    "definition": "Master file application acknowledgement",
+    "designation": [ {
+      "language": "de",
+      "value": "Empfangsbestätigung für Stammdateiänderung"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    }, {
+      "code": "event",
+      "valueCode": "M01"
+    }, {
+      "code": "event",
+      "valueCode": "M02"
+    }, {
+      "code": "event",
+      "valueCode": "M03"
+    } ]
+  }, {
+    "code": "MFN",
+    "display": "Master files notification",
+    "definition": "Master files notification",
+    "designation": [ {
+      "language": "de",
+      "value": "Stammdateiänderung"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    }, {
+      "code": "event",
+      "valueCode": "M01"
+    }, {
+      "code": "event",
+      "valueCode": "M02"
+    }, {
+      "code": "event",
+      "valueCode": "M03"
+    } ]
+  }, {
+    "code": "MFR",
+    "display": "Master files response",
+    "definition": "Master files response",
+    "designation": [ {
+      "language": "de",
+      "value": "Antwort auf Stammdateianfrage"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    }, {
+      "code": "event",
+      "valueCode": "M01"
+    }, {
+      "code": "event",
+      "valueCode": "M02"
+    }, {
+      "code": "event",
+      "valueCode": "M03"
+    } ]
+  }, {
+    "code": "NMD",
+    "display": "Network management data",
+    "definition": "Network management data",
+    "designation": [ {
+      "language": "de",
+      "value": "Asynchrone Statusmeldung eines Systems"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    }, {
+      "code": "event",
+      "valueCode": "N01"
+    } ]
+  }, {
+    "code": "NMQ",
+    "display": "Network management query",
+    "definition": "Network management query",
+    "designation": [ {
+      "language": "de",
+      "value": "Anfrage / Kommando an ein anderes System im Netz"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    }, {
+      "code": "event",
+      "valueCode": "N02"
+    } ]
+  }, {
+    "code": "NMR",
+    "display": "Network management response",
+    "definition": "Network management response",
+    "designation": [ {
+      "language": "de",
+      "value": "Antwort auf Anfrage / Kommando"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    }, {
+      "code": "event",
+      "valueCode": "N02"
+    } ]
+  }, {
+    "code": "ORF",
+    "display": "Observational result (record response)",
+    "definition": "Observational result (record response)",
+    "designation": [ {
+      "language": "de",
+      "value": "Untersuchungsergebnisse"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    }, {
+      "code": "event",
+      "valueCode": "R04"
+    } ]
+  }, {
+    "code": "ORM",
+    "display": "Order message",
+    "definition": "Order message",
+    "designation": [ {
+      "language": "de",
+      "value": "Auftrag / Verordnung"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    }, {
+      "code": "event",
+      "valueCode": "O01"
+    } ]
+  }, {
+    "code": "ORR",
+    "display": "Order acknowledgement message",
+    "definition": "Order acknowledgement message",
+    "designation": [ {
+      "language": "de",
+      "value": "Empfangsbestätigung von der Anwendung für einen Auftrag"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    }, {
+      "code": "event",
+      "valueCode": "O02"
+    } ]
+  }, {
+    "code": "ORU",
+    "display": "Observational result (unsolicited)",
+    "definition": "Observational result (unsolicited)",
+    "designation": [ {
+      "language": "de",
+      "value": "Nicht angeforderte Untersuchungsergebnisse"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    }, {
+      "code": "event",
+      "valueCode": "R01"
+    } ]
+  }, {
+    "code": "OSQ",
+    "display": "Order status query",
+    "definition": "Order status query",
+    "designation": [ {
+      "language": "de",
+      "value": "Anfrage nach Auftragsstatus"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "QRY",
+    "display": "Query",
+    "definition": "Query",
+    "designation": [ {
+      "language": "de",
+      "value": "Anfrage"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    }, {
+      "code": "event",
+      "valueCode": "A19"
+    }, {
+      "code": "event",
+      "valueCode": "P04"
+    }, {
+      "code": "event",
+      "valueCode": "Q01"
+    }, {
+      "code": "event",
+      "valueCode": "Q02"
+    }, {
+      "code": "event",
+      "valueCode": "R02"
+    } ]
+  }, {
+    "code": "RAR",
+    "display": "Pharmacy administration information",
+    "definition": "Pharmacy administration information",
+    "designation": [ {
+      "language": "de",
+      "value": "Antwort auf Anfrage bezüglich Verabreichung von Medikamenten"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "RAS",
+    "display": "Pharmacy administration message",
+    "definition": "Pharmacy administration message",
+    "designation": [ {
+      "language": "de",
+      "value": "Erfolgte Verabreichung von Medikamenten"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "RDE",
+    "display": "Pharmacy encoded order message",
+    "definition": "Pharmacy encoded order message",
+    "designation": [ {
+      "language": "de",
+      "value": "Medikamentenverordnung (Apotheke)"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "RDR",
+    "display": "Pharmacy dispense information",
+    "definition": "Pharmacy dispense information",
+    "designation": [ {
+      "language": "de",
+      "value": "Antwort auf Anfrage bezüglich Abgabe von Medikamenten"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "RDS",
+    "display": "Pharmacy dispense message",
+    "definition": "Pharmacy dispense message",
+    "designation": [ {
+      "language": "de",
+      "value": "Abgabe von Medikamenten"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "RER",
+    "display": "Pharmacy encoded order information",
+    "definition": "Pharmacy encoded order information",
+    "designation": [ {
+      "language": "de",
+      "value": "Antwort auf Anfrage bezüglich Medikamentenverordnung (Apotheke)"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "RGR",
+    "display": "Pharmacy dose information",
+    "definition": "Pharmacy dose information",
+    "designation": [ {
+      "language": "de",
+      "value": "Antwort auf Anfrage bezüglich Verabreichungsvorschrift für Medikamente"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "RGV",
+    "display": "Pharmacy give message",
+    "definition": "Pharmacy give message",
+    "designation": [ {
+      "language": "de",
+      "value": "Verabreichungsvorschrift für Medikamente"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "ROR",
+    "display": "Pharmacy prescription order response",
+    "definition": "Pharmacy prescription order response",
+    "designation": [ {
+      "language": "de",
+      "value": "Antwort auf Anfrage bezüglich Medikamentenverordnung"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "RRA",
+    "display": "Pharmacy administration acknowledgment",
+    "definition": "Pharmacy administration acknowledgment",
+    "designation": [ {
+      "language": "de",
+      "value": "Empfangsbestätigung für Verabreichungsmeldung"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "RRD",
+    "display": "Pharmacy dispense acknowledgment",
+    "definition": "Pharmacy dispense acknowledgment",
+    "designation": [ {
+      "language": "de",
+      "value": "Empfangsbestätigung für Abgabemeldung"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "RRE",
+    "display": "Pharmacy encoded order acknowledgment",
+    "definition": "Pharmacy encoded order acknowledgment",
+    "designation": [ {
+      "language": "de",
+      "value": "Empfangsbestätigung für Verordnung (Apotheke)"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "RRG",
+    "display": "Pharmacy give acknowledgment",
+    "definition": "Pharmacy give acknowledgment",
+    "designation": [ {
+      "language": "de",
+      "value": "Empfangsbestätigung für Verabreichungsvorschrift"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "UDM",
+    "display": "Unsolicited display message",
+    "definition": "Unsolicited display message",
+    "designation": [ {
+      "language": "de",
+      "value": "Nicht angeforderte Nachricht im Anzeigeformat"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    }, {
+      "code": "event",
+      "valueCode": "Q05"
+    } ]
+  } ]
+}

@@ -1,0 +1,720 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "bodySite",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-bodySite.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/bodySite</code></a></li></ul></div>"
+  },
+  "extension": [ {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+    "valueString": "2.2"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+    "valueString": "generate correct history somehow"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+    "valueString": "0163"
+  } ],
+  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/bodySite",
+  "identifier": [ {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:oid:2.16.840.1.113883.18.81"
+  } ],
+  "version": "1.0.0",
+  "name": "BodySite",
+  "title": "Administrative Site (2.2 - 1.0.0)",
+  "status": "active",
+  "experimental": true,
+  "publisher": "HL7 Inc., 2026",
+  "description": "HL7-defined code system of concepts that specify a body site from which a specimen is obtained.  Used in HL7 Version 2.x messaging in the OBX and CH7 segments.",
+  "copyright": "HL7 Inc., 2026",
+  "caseSensitive": true,
+  "compositional": false,
+  "content": "complete",
+  "property": [ {
+    "code": "versionIntroduced",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+    "description": "version when was this code introduced",
+    "type": "string"
+  }, {
+    "code": "versionDeprecated",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+    "description": "version when was this code deprecated",
+    "type": "string"
+  }, {
+    "code": "status",
+    "uri": "http://hl7.org/fhir/concept-properties#status",
+    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+    "type": "code"
+  }, {
+    "code": "comment",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+    "type": "string"
+  }, {
+    "code": "usage",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+    "description": "usage notes for this code",
+    "type": "string"
+  }, {
+    "code": "modified",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+    "description": "date of last modification",
+    "type": "dateTime"
+  } ],
+  "concept": [ {
+    "code": "BE",
+    "display": "Bilateral Ears",
+    "definition": "Bilateral Ears",
+    "designation": [ {
+      "language": "de",
+      "value": "Beide Ohren"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "BN",
+    "display": "Bilateral Nares",
+    "definition": "Bilateral Nares",
+    "designation": [ {
+      "language": "de",
+      "value": "Beide Nasenlöcher"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "BU",
+    "display": "Buttock",
+    "definition": "Buttock",
+    "designation": [ {
+      "language": "de",
+      "value": "Gesäß"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "CT",
+    "display": "Chest Tube",
+    "definition": "Tubus",
+    "designation": [ {
+      "language": "de",
+      "value": "Tubus"
+    } ],
+    "property": [ {
+      "code": "comment",
+      "valueString": "tubus -> chest tubus"
+    }, {
+      "code": "modified",
+      "valueDateTime": "2025-07-30"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "LA",
+    "display": "Left arm",
+    "definition": "Left arm",
+    "designation": [ {
+      "language": "de",
+      "value": "linker Arm"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "LAC",
+    "display": "Left Anterior Chest",
+    "definition": "Left Anterior Chest",
+    "designation": [ {
+      "language": "de",
+      "value": "Linker vorderer Thorax"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "LACF",
+    "display": "Left Antecubital Fossa",
+    "definition": "Left Antecubital Fossa",
+    "designation": [ {
+      "language": "de",
+      "value": "Linke Fossa antecubitalis"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "LD",
+    "display": "Left Deltoid",
+    "definition": "Left Deltoid",
+    "designation": [ {
+      "language": "de",
+      "value": "Linker Deltoideus"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "LE",
+    "display": "Left Ear",
+    "definition": "Left Ear",
+    "designation": [ {
+      "language": "de",
+      "value": "linkes Ohr"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "LEJ",
+    "display": "Left External Jugular",
+    "definition": "Left External Jugular",
+    "designation": [ {
+      "language": "de",
+      "value": "Linke Vena jugularis externa"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "LF",
+    "display": "Left Foot",
+    "definition": "Left Foot",
+    "designation": [ {
+      "language": "de",
+      "value": "linker Fuß"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "LG",
+    "display": "Left Gluteus Medius",
+    "definition": "Left Gluteus Medius",
+    "designation": [ {
+      "language": "de",
+      "value": "Linker Glutäus maximus"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "LH",
+    "display": "Left Hand",
+    "definition": "Left Hand",
+    "designation": [ {
+      "language": "de",
+      "value": "linke Hand"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "LIJ",
+    "display": "Left Internal Jugular",
+    "definition": "Left Internal Jugular",
+    "designation": [ {
+      "language": "de",
+      "value": "Linke Vena jugularis interna"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "LLAQ",
+    "display": "Left Lower Abd Quadrant",
+    "definition": "Left Lower Abd Quadrant",
+    "designation": [ {
+      "language": "de",
+      "value": "Linker unterer Quadrant Abdomen"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "LLFA",
+    "display": "Left Lower Forearm",
+    "definition": "Left Lower Forearm",
+    "designation": [ {
+      "language": "de",
+      "value": "Linker Unterarm (unten)"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "LMFA",
+    "display": "Left Mid Forearm",
+    "definition": "Left Mid Forearm",
+    "designation": [ {
+      "language": "de",
+      "value": "Linker Unterarm (Mitte)"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "LN",
+    "display": "Left Naris",
+    "definition": "Left Naris",
+    "designation": [ {
+      "language": "de",
+      "value": "Linkes Nasenloch"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "LPC",
+    "display": "Left Posterior Chest",
+    "definition": "Left Posterior Chest",
+    "designation": [ {
+      "language": "de",
+      "value": "Linker hinterer Thorax"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "LSC",
+    "display": "Left Subclavian",
+    "definition": "Left Subclavian",
+    "designation": [ {
+      "language": "de",
+      "value": "Linke Subclavia"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "LT",
+    "display": "Left Thigh",
+    "definition": "Left Thigh",
+    "designation": [ {
+      "language": "de",
+      "value": "Linker Oberschenkel"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "LUA",
+    "display": "Left Upper Arm",
+    "definition": "Left Upper Arm",
+    "designation": [ {
+      "language": "de",
+      "value": "Linker Oberarm"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "LUAQ",
+    "display": "Left Upper Abd Quadrant",
+    "definition": "Left Upper Abd Quadrant",
+    "designation": [ {
+      "language": "de",
+      "value": "Linker oberer Quadrant Abdomen"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "LUFA",
+    "display": "Left Upper Forearm",
+    "definition": "Left Upper Forearm",
+    "designation": [ {
+      "language": "de",
+      "value": "Linker Unterarm (oben)"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "LVG",
+    "display": "Left Ventragluteal",
+    "definition": "Left Ventragluteal",
+    "designation": [ {
+      "language": "de",
+      "value": "Linke Bauch- / Glutealgegend"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "LVL",
+    "display": "Left Vastus Lateralis",
+    "definition": "Left Vastus Lateralis",
+    "designation": [ {
+      "language": "de",
+      "value": "Linker Musculus vastus lateralis (Offiziersstreifen)"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "NB",
+    "display": "Nebulized",
+    "definition": "Nebulized",
+    "designation": [ {
+      "language": "de",
+      "value": "Vernebelt"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "OD",
+    "display": "Right Eye",
+    "definition": "Right Eye",
+    "designation": [ {
+      "language": "de",
+      "value": "rechtes Auge"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "OS",
+    "display": "Left Eye",
+    "definition": "Left Eye",
+    "designation": [ {
+      "language": "de",
+      "value": "linkes Auge"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "OU",
+    "display": "Bilateral Eyes",
+    "definition": "Bilateral Eyes",
+    "designation": [ {
+      "language": "de",
+      "value": "Beide Augen"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "PA",
+    "display": "Perianal",
+    "definition": "Perianal",
+    "designation": [ {
+      "language": "de",
+      "value": "Perianal"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "PERIN",
+    "display": "Perineal",
+    "definition": "Perineal",
+    "designation": [ {
+      "language": "de",
+      "value": "Perineum / Dammbereich"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "RA",
+    "display": "Right Arm",
+    "definition": "Right Arm",
+    "designation": [ {
+      "language": "de",
+      "value": "Rechter Arm"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "RAC",
+    "display": "Right Anterior Chest",
+    "definition": "Right Anterior Chest",
+    "designation": [ {
+      "language": "de",
+      "value": "Rechter vorderer Thorax"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "RACF",
+    "display": "Right Antecubital Fossa",
+    "definition": "Right Antecubital Fossa",
+    "designation": [ {
+      "language": "de",
+      "value": "Rechte Fossa antecubitalis"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "RD",
+    "display": "Right Deltoid",
+    "definition": "Right Deltoid",
+    "designation": [ {
+      "language": "de",
+      "value": "Rechter Deltoideus"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "RE",
+    "display": "Right Ear",
+    "definition": "Right Ear",
+    "designation": [ {
+      "language": "de",
+      "value": "Rechtes Ohr"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "REJ",
+    "display": "Right External Jugular",
+    "definition": "Right External Jugular",
+    "designation": [ {
+      "language": "de",
+      "value": "Rechte Vena jugularis externa"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "RF",
+    "display": "Right Foot",
+    "definition": "Right Foot",
+    "designation": [ {
+      "language": "de",
+      "value": "Rechter Fuß"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "RG",
+    "display": "Right Gluteus Medius",
+    "definition": "Right Gluteus Medius",
+    "designation": [ {
+      "language": "de",
+      "value": "Rechter Glutäus maximus"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "RH",
+    "display": "Right Hand",
+    "definition": "Right Hand",
+    "designation": [ {
+      "language": "de",
+      "value": "Rechte Hand"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "RIJ",
+    "display": "Right Internal Jugular",
+    "definition": "Right Internal Jugular",
+    "designation": [ {
+      "language": "de",
+      "value": "Rechte Vena jugularis interna"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "RLAQ",
+    "display": "Rt Lower Abd Quadrant",
+    "definition": "Rt Lower Abd Quadrant",
+    "designation": [ {
+      "language": "de",
+      "value": "Rechter unterer Quadrant Abdomen"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "RLFA",
+    "display": "Right Lower Forearm",
+    "definition": "Right Lower Forearm",
+    "designation": [ {
+      "language": "de",
+      "value": "Rechter Unterarm (unten)"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "RMFA",
+    "display": "Right Mid Forearm",
+    "definition": "Right Mid Forearm",
+    "designation": [ {
+      "language": "de",
+      "value": "Rechter Unterarm (Mitte)"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "RN",
+    "display": "Right Naris",
+    "definition": "Right Naris",
+    "designation": [ {
+      "language": "de",
+      "value": "Rechtes Nasenloch"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "RPC",
+    "display": "Right Posterior Chest",
+    "definition": "Right Posterior Chest",
+    "designation": [ {
+      "language": "de",
+      "value": "Rechter hinterer Thorax"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "RSC",
+    "display": "Right Subclavian",
+    "definition": "Right Subclavian",
+    "designation": [ {
+      "language": "de",
+      "value": "Rechte Subclavia"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "RT",
+    "display": "Right Thigh",
+    "definition": "Right Thigh",
+    "designation": [ {
+      "language": "de",
+      "value": "Rechter Oberschenkel"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "RUA",
+    "display": "Right Upper Arm",
+    "definition": "Right Upper Arm",
+    "designation": [ {
+      "language": "de",
+      "value": "Rechter Oberarm"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "RUAQ",
+    "display": "Right Upper Abd Quadrant",
+    "definition": "Right Upper Abd Quadrant",
+    "designation": [ {
+      "language": "de",
+      "value": "Rechter oberer Quadrant Abdomen"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "RUFA",
+    "display": "Right Upper Forearm",
+    "definition": "Right Upper Forearm",
+    "designation": [ {
+      "language": "de",
+      "value": "Rechter Unterarm (oben)"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "RVG",
+    "display": "Right Ventragluteal",
+    "definition": "Right Ventragluteal",
+    "designation": [ {
+      "language": "de",
+      "value": "Rechte Bauch- / Glutealgegend"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "RVL",
+    "display": "Right Vastus Lateralis",
+    "definition": "Right Vastus Lateralis",
+    "designation": [ {
+      "language": "de",
+      "value": "Rechter Musculus vastus lateralis (Offiziersstreifen)"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  } ]
+}

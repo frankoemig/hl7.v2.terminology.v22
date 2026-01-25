@@ -1,0 +1,894 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "event",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-event.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/event</code></a></li></ul></div>"
+  },
+  "extension": [ {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+    "valueString": "2.2"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+    "valueString": "generate correct history somehow"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+    "valueString": "0003"
+  } ],
+  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/event",
+  "identifier": [ {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:oid:2.16.840.1.113883.18.4"
+  } ],
+  "version": "1.1.0",
+  "name": "Event",
+  "title": "Event (2.2 - 1.1.0)",
+  "status": "active",
+  "experimental": true,
+  "publisher": "HL7 Inc., 2026",
+  "description": "HL7-defined code system of concepts specifying the trigger event for Version 2.x interface messages.  Used in HL7 Version 2.x messaging in the MSH segment.",
+  "copyright": "HL7 Inc., 2026",
+  "caseSensitive": true,
+  "compositional": false,
+  "content": "complete",
+  "property": [ {
+    "code": "versionIntroduced",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+    "description": "version when was this code introduced",
+    "type": "string"
+  }, {
+    "code": "versionDeprecated",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+    "description": "version when was this code deprecated",
+    "type": "string"
+  }, {
+    "code": "status",
+    "uri": "http://hl7.org/fhir/concept-properties#status",
+    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+    "type": "code"
+  }, {
+    "code": "comment",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+    "type": "string"
+  }, {
+    "code": "usage",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+    "description": "usage notes for this code",
+    "type": "string"
+  }, {
+    "code": "modified",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+    "description": "date of last modification",
+    "type": "dateTime"
+  }, {
+    "extension": [ {
+      "url": "http://hl7.org/fhir/StructureDefinition/codesystem-property-valueset",
+      "valueCanonical": "http://terminology.hl7.org/v2plusvocab/ValueSet/hl7VS354-2"
+    } ],
+    "code": "msgstruct",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#msgstruct",
+    "description": "msgstruct",
+    "type": "code"
+  }, {
+    "extension": [ {
+      "url": "http://hl7.org/fhir/StructureDefinition/codesystem-property-valueset",
+      "valueCanonical": "http://terminology.hl7.org/v2plusvocab/ValueSet/hl7VShl7VSmessageType"
+    } ],
+    "code": "msgtype",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#msgtype",
+    "description": "msgtype",
+    "type": "code"
+  } ],
+  "concept": [ {
+    "code": "A01",
+    "display": "Admit a patient",
+    "definition": "Admit a patient",
+    "designation": [ {
+      "language": "de",
+      "value": "Neuaufnahme"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    }, {
+      "code": "msgstruct",
+      "valueCode": "?"
+    } ]
+  }, {
+    "code": "A02",
+    "display": "Transfer a patient",
+    "definition": "Transfer a patient",
+    "designation": [ {
+      "language": "de",
+      "value": "Verlegung"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    }, {
+      "code": "msgstruct",
+      "valueCode": "?"
+    } ]
+  }, {
+    "code": "A03",
+    "display": "Discharge a patient",
+    "definition": "Discharge a patient",
+    "designation": [ {
+      "language": "de",
+      "value": "Entlassung"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    }, {
+      "code": "msgstruct",
+      "valueCode": "?"
+    } ]
+  }, {
+    "code": "A04",
+    "display": "Register a patient",
+    "definition": "Register a patient",
+    "designation": [ {
+      "language": "de",
+      "value": "Patientenregistrierung (Besuchsmeldung)"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    }, {
+      "code": "msgstruct",
+      "valueCode": "?"
+    } ]
+  }, {
+    "code": "A05",
+    "display": "Pre-admit a Patient",
+    "definition": "Pre-admit a Patient",
+    "designation": [ {
+      "language": "de",
+      "value": "Voraufnahme eines Patienten"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    }, {
+      "code": "msgstruct",
+      "valueCode": "?"
+    } ]
+  }, {
+    "code": "A06",
+    "display": "Transfer an outpatient to inpatient",
+    "definition": "Transfer an outpatient to inpatient",
+    "designation": [ {
+      "language": "de",
+      "value": "Änderung von ambulant in stationär"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    }, {
+      "code": "msgstruct",
+      "valueCode": "?"
+    } ]
+  }, {
+    "code": "A07",
+    "display": "Transfer an inpatient to outpatient",
+    "definition": "Transfer an inpatient to outpatient",
+    "designation": [ {
+      "language": "de",
+      "value": "Änderung von stationär in ambulant"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    }, {
+      "code": "msgstruct",
+      "valueCode": "?"
+    } ]
+  }, {
+    "code": "A08",
+    "display": "Update patient information",
+    "definition": "Update patient information",
+    "designation": [ {
+      "language": "de",
+      "value": "Änderung von Patienteninformationen"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    }, {
+      "code": "msgstruct",
+      "valueCode": "?"
+    } ]
+  }, {
+    "code": "A09",
+    "display": "Patient departing",
+    "definition": "Patient departing",
+    "designation": [ {
+      "language": "de",
+      "value": "Patientenabgang (Bettenfreigabe)"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    }, {
+      "code": "msgstruct",
+      "valueCode": "?"
+    } ]
+  }, {
+    "code": "A10",
+    "display": "Patient arriving",
+    "definition": "Patient arriving",
+    "designation": [ {
+      "language": "de",
+      "value": "Patientenzugang (Bettenzuweisung)"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    }, {
+      "code": "msgstruct",
+      "valueCode": "?"
+    } ]
+  }, {
+    "code": "A11",
+    "display": "Cancel admit",
+    "definition": "Cancel admit",
+    "designation": [ {
+      "language": "de",
+      "value": "Stornierung einer Aufnahme"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    }, {
+      "code": "msgstruct",
+      "valueCode": "?"
+    } ]
+  }, {
+    "code": "A12",
+    "display": "Cancel transfer",
+    "definition": "Cancel transfer",
+    "designation": [ {
+      "language": "de",
+      "value": "Stornierung einer Verlegung"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    }, {
+      "code": "msgstruct",
+      "valueCode": "?"
+    } ]
+  }, {
+    "code": "A13",
+    "display": "Cancel discharge",
+    "definition": "Cancel discharge",
+    "designation": [ {
+      "language": "de",
+      "value": "Stornierung einer Entlassung"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    }, {
+      "code": "msgstruct",
+      "valueCode": "?"
+    } ]
+  }, {
+    "code": "A14",
+    "display": "Pending admit",
+    "definition": "Pending admit",
+    "designation": [ {
+      "language": "de",
+      "value": "Bevorstehende Aufnahme"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    }, {
+      "code": "msgstruct",
+      "valueCode": "?"
+    } ]
+  }, {
+    "code": "A15",
+    "display": "Pending transfer",
+    "definition": "Pending transfer",
+    "designation": [ {
+      "language": "de",
+      "value": "Bevorstehende Verlegung"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    }, {
+      "code": "msgstruct",
+      "valueCode": "?"
+    } ]
+  }, {
+    "code": "A16",
+    "display": "Pending discharge",
+    "definition": "Pending discharge",
+    "designation": [ {
+      "language": "de",
+      "value": "Bevorstehende Entlassung"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    }, {
+      "code": "msgstruct",
+      "valueCode": "?"
+    } ]
+  }, {
+    "code": "A17",
+    "display": "Swap patients",
+    "definition": "Swap patients",
+    "designation": [ {
+      "language": "de",
+      "value": "Bettentausch zweier Patienten"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    }, {
+      "code": "msgstruct",
+      "valueCode": "?"
+    } ]
+  }, {
+    "code": "A18",
+    "display": "Merge patient information",
+    "definition": "Merge patient information",
+    "designation": [ {
+      "language": "de",
+      "value": "Zusammenführung / Abgleich von Patienteninformation (veraltet; A34, A35 oder A36"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    }, {
+      "code": "msgstruct",
+      "valueCode": "?"
+    } ]
+  }, {
+    "code": "A19",
+    "display": "Patient query",
+    "definition": "Patient query",
+    "designation": [ {
+      "language": "de",
+      "value": "Patientenanfrage"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    }, {
+      "code": "msgstruct",
+      "valueCode": "?"
+    } ]
+  }, {
+    "code": "A20",
+    "display": "Bed Status Update",
+    "definition": "Bed Status Update",
+    "designation": [ {
+      "language": "de",
+      "value": "Änderung des Bettenstatus"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    }, {
+      "code": "msgstruct",
+      "valueCode": "?"
+    } ]
+  }, {
+    "code": "A21",
+    "display": "Leave of absence - out (leaving)",
+    "definition": "Leave of absence - out (leaving)",
+    "designation": [ {
+      "language": "de",
+      "value": "Beginn einer Patientenabwesenheit"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    }, {
+      "code": "msgstruct",
+      "valueCode": "?"
+    } ]
+  }, {
+    "code": "A22",
+    "display": "Leave of absence - in (returning)",
+    "definition": "Leave of absence - in (returning)",
+    "designation": [ {
+      "language": "de",
+      "value": "Ende einer Patientenabwesenheit"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    }, {
+      "code": "msgstruct",
+      "valueCode": "?"
+    } ]
+  }, {
+    "code": "A23",
+    "display": "Delete a patient record",
+    "definition": "Delete a patient record",
+    "designation": [ {
+      "language": "de",
+      "value": "Löschen eines Patientensatzes"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    }, {
+      "code": "msgstruct",
+      "valueCode": "?"
+    } ]
+  }, {
+    "code": "A24",
+    "display": "Link patient information",
+    "definition": "Link patient information",
+    "designation": [ {
+      "language": "de",
+      "value": "Verknüpfen von Patientendaten"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    }, {
+      "code": "msgstruct",
+      "valueCode": "?"
+    } ]
+  }, {
+    "code": "A25",
+    "display": "Cancel pending discharge",
+    "definition": "Cancel pending discharge",
+    "designation": [ {
+      "language": "de",
+      "value": "Stornierung einer eingeleiteten Entlassung"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    }, {
+      "code": "msgstruct",
+      "valueCode": "?"
+    } ]
+  }, {
+    "code": "A26",
+    "display": "Cancel pending transfer",
+    "definition": "Cancel pending transfer",
+    "designation": [ {
+      "language": "de",
+      "value": "Stornierung einer eingeleiteten Verlegung"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    }, {
+      "code": "msgstruct",
+      "valueCode": "?"
+    } ]
+  }, {
+    "code": "A27",
+    "display": "Cancel pending admit",
+    "definition": "Cancel pending admit",
+    "designation": [ {
+      "language": "de",
+      "value": "Stornierung einer eingeleiteten Aufnahme"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    }, {
+      "code": "msgstruct",
+      "valueCode": "?"
+    } ]
+  }, {
+    "code": "A28",
+    "display": "Add person information",
+    "definition": "Add person information",
+    "designation": [ {
+      "language": "de",
+      "value": "Ergänzung personenbezogener Daten"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    }, {
+      "code": "msgstruct",
+      "valueCode": "?"
+    } ]
+  }, {
+    "code": "A29",
+    "display": "Delete person information",
+    "definition": "Delete person information",
+    "designation": [ {
+      "language": "de",
+      "value": "Löschung von personenbezogenen Daten"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    }, {
+      "code": "msgstruct",
+      "valueCode": "?"
+    } ]
+  }, {
+    "code": "A30",
+    "display": "Merge Patient information",
+    "definition": "Merge Patient information",
+    "designation": [ {
+      "language": "de",
+      "value": "Abgleich personenbezogener Daten"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    }, {
+      "code": "msgstruct",
+      "valueCode": "?"
+    } ]
+  }, {
+    "code": "A31",
+    "display": "Update person information",
+    "definition": "Update person information",
+    "designation": [ {
+      "language": "de",
+      "value": "Ändern personenbezogener Daten"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    }, {
+      "code": "msgstruct",
+      "valueCode": "?"
+    } ]
+  }, {
+    "code": "A32",
+    "display": "Cancel patient arriving",
+    "definition": "Cancel patient arriving",
+    "designation": [ {
+      "language": "de",
+      "value": "Stornierung eines Patientenzugangs (Bettenzuweisung)"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    }, {
+      "code": "msgstruct",
+      "valueCode": "?"
+    } ]
+  }, {
+    "code": "A33",
+    "display": "Cancel patient departing",
+    "definition": "Cancel patient departing",
+    "designation": [ {
+      "language": "de",
+      "value": "Stornierung eines Patientenabgangs (Bettenfreigabe)"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    }, {
+      "code": "msgstruct",
+      "valueCode": "?"
+    } ]
+  }, {
+    "code": "A34",
+    "display": "Merge patient information - patient ID only",
+    "definition": "Merge patient information - patient ID only",
+    "designation": [ {
+      "language": "de",
+      "value": "Abgleich nur der Patientennummer"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    }, {
+      "code": "msgstruct",
+      "valueCode": "?"
+    } ]
+  }, {
+    "code": "A35",
+    "display": "Merge patient information - account number only",
+    "definition": "Merge patient information - account number only",
+    "designation": [ {
+      "language": "de",
+      "value": "Abgleich nur der Abrechnungsnummer / Debitorenkontonummer"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    }, {
+      "code": "msgstruct",
+      "valueCode": "?"
+    } ]
+  }, {
+    "code": "A36",
+    "display": "Merge patient information - patient ID and account number",
+    "definition": "Merge patient information - patient ID and account number",
+    "designation": [ {
+      "language": "de",
+      "value": "Abgleich von Patientennummer und Abrechnungsnummer / Debitorenkontonummer"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    }, {
+      "code": "msgstruct",
+      "valueCode": "?"
+    } ]
+  }, {
+    "code": "A37",
+    "display": "Unlink patient information",
+    "definition": "Unlink patient information",
+    "designation": [ {
+      "language": "de",
+      "value": "Auflösung einer Verknüpfung von Patientendaten"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    }, {
+      "code": "msgstruct",
+      "valueCode": "?"
+    } ]
+  }, {
+    "code": "M01",
+    "display": "Master file not otherwise specified (for backwards compatibility only)",
+    "definition": "Master file not otherwise specified (for backwards compatibility only)",
+    "designation": [ {
+      "language": "de",
+      "value": "Stammdatenänderung (veraltet)"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    }, {
+      "code": "msgstruct",
+      "valueCode": "?"
+    } ]
+  }, {
+    "code": "M02",
+    "display": "Master file - Staff Practioner",
+    "definition": "Master file - Staff Practioner",
+    "designation": [ {
+      "language": "de",
+      "value": "Stammdatenänderung - Ärzte"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    }, {
+      "code": "msgstruct",
+      "valueCode": "?"
+    } ]
+  }, {
+    "code": "M03",
+    "display": "Master file - test / observation",
+    "definition": "Master file - test / observation",
+    "designation": [ {
+      "language": "de",
+      "value": "Stammdatenänderung - Tests / Untersuchungen"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    }, {
+      "code": "msgstruct",
+      "valueCode": "?"
+    } ]
+  }, {
+    "code": "O01",
+    "display": "Order message",
+    "definition": "Order message",
+    "designation": [ {
+      "language": "de",
+      "value": "Auftrag / Verordnung"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    }, {
+      "code": "msgstruct",
+      "valueCode": "?"
+    } ]
+  }, {
+    "code": "O02",
+    "display": "Order response",
+    "definition": "Order response",
+    "designation": [ {
+      "language": "de",
+      "value": "Ergebnisrückmeldung"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    }, {
+      "code": "msgstruct",
+      "valueCode": "?"
+    } ]
+  }, {
+    "code": "P01",
+    "display": "Add and Update Patient Accounts",
+    "definition": "Add and Update Patient Accounts",
+    "designation": [ {
+      "language": "de",
+      "value": "Hinzufügen und Ändern von Abrechnungsinformationen"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    }, {
+      "code": "msgstruct",
+      "valueCode": "?"
+    } ]
+  }, {
+    "code": "P02",
+    "display": "Purge Patient Accounts",
+    "definition": "Purge Patient Accounts",
+    "designation": [ {
+      "language": "de",
+      "value": "Löschen von Abrechnungsinformationen"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    }, {
+      "code": "msgstruct",
+      "valueCode": "?"
+    } ]
+  }, {
+    "code": "P03",
+    "display": "Post detail financial transaction",
+    "definition": "Post detail financial transaction",
+    "designation": [ {
+      "language": "de",
+      "value": "Buchung"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    }, {
+      "code": "msgstruct",
+      "valueCode": "?"
+    } ]
+  }, {
+    "code": "P04",
+    "display": "Generate bill and accounts receivable statements",
+    "definition": "Generate bill and accounts receivable statements",
+    "designation": [ {
+      "language": "de",
+      "value": "Druck und Anzeige von Rechnungen"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    }, {
+      "code": "msgstruct",
+      "valueCode": "?"
+    } ]
+  }, {
+    "code": "Q01",
+    "display": "Immediate access",
+    "definition": "Immediate access",
+    "designation": [ {
+      "language": "de",
+      "value": "Anfrage mit sofortiger Antwort"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    }, {
+      "code": "msgstruct",
+      "valueCode": "?"
+    } ]
+  }, {
+    "code": "Q02",
+    "display": "Deferred access",
+    "definition": "Deferred access",
+    "designation": [ {
+      "language": "de",
+      "value": "Anfrage mit verzögerter Antwort"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    }, {
+      "code": "msgstruct",
+      "valueCode": "?"
+    } ]
+  }, {
+    "code": "Q03",
+    "display": "Deferred response to query",
+    "definition": "Deferred response to query",
+    "designation": [ {
+      "language": "de",
+      "value": "Verzögerte Antwort auf Anfrage"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    }, {
+      "code": "msgstruct",
+      "valueCode": "?"
+    } ]
+  }, {
+    "code": "Q05",
+    "display": "Unsolicited display update",
+    "definition": "Unsolicited display update",
+    "designation": [ {
+      "language": "de",
+      "value": "Sofortige Bildschirmanzeige (Eilmeldung)"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    }, {
+      "code": "msgstruct",
+      "valueCode": "?"
+    } ]
+  }, {
+    "code": "R01",
+    "display": "Unsolicited transmission of requested observation",
+    "definition": "Unsolicited transmission of requested observation",
+    "designation": [ {
+      "language": "de",
+      "value": "Unangeforderte Übermittlung eines Befundes"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    }, {
+      "code": "msgstruct",
+      "valueCode": "?"
+    } ]
+  }, {
+    "code": "R02",
+    "display": "Query for results of observation",
+    "definition": "Query for results of observation",
+    "designation": [ {
+      "language": "de",
+      "value": "Anfrage nach Untersuchungsergebnis"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    }, {
+      "code": "msgstruct",
+      "valueCode": "?"
+    } ]
+  }, {
+    "code": "R03",
+    "display": "Display-oriented results (query / unsolicited update)",
+    "definition": "Display-oriented results (query / unsolicited update)",
+    "designation": [ {
+      "language": "de",
+      "value": "Anzeigeorientiertes Ergebnis"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    }, {
+      "code": "msgstruct",
+      "valueCode": "?"
+    } ]
+  }, {
+    "code": "R04",
+    "display": "Response to query / transmission of requested observation",
+    "definition": "Response to query / transmission of requested observation",
+    "designation": [ {
+      "language": "de",
+      "value": "Antwort auf Anfrage / Übermittlung eines angeforderten Ergebnisses"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    }, {
+      "code": "msgstruct",
+      "valueCode": "?"
+    } ]
+  } ]
+}
